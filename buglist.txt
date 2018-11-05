@@ -1,0 +1,14 @@
+Bugs:
+
+-isEmpty() always returns true
+-addBack() adds elements in inncorent way (adds to the front)
+-removeBack() and removeFront() cannot work as intended due to isEmpty always returning true i.e, it always belives the list is empty and will not remove anything
+
+--------------------
+
+Working as inteneded:
+these methods are working as intended
+-size()
+-search()
+-toVector()
+-addFront()
